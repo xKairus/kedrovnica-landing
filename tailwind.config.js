@@ -4,13 +4,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif"], 
-        heading: ["Montserrat", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
+        serif: ['"Cormorant Garamond"', "serif"], // Для заголовков и лого
       },
       colors: {
-        primary: "#2F80ED", 
-        secondary: "#27AE60", 
-        dark: "#1F2937",
+        "cedar-green": "#0F2923",
+        terracotta: "#C58B68",
+        dark: "#1A1A1A",
       },
     },
   },
