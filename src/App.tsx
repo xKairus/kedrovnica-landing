@@ -1,18 +1,18 @@
-import { Header } from './components/Header';
+import { Header } from "./components/Header"
+import { Hero } from "./components/Hero"
 
 function App() {
   return (
     <div className="font-sans text-dark">
       <Header />
-      
-      <main className="pt-24 pb-20 container mx-auto px-4">
-        <h1 className="text-4xl font-heading font-bold mb-6">
-          Сайт находится в разработке
-        </h1>
-        <p className="text-lg text-gray-600">
-          Мы настраиваем архитектуру и основные компоненты.
-        </p>
-        <div className="h-[150vh]"></div> 
+
+      <main>
+        <Hero />
+
+        <div className="py-20 container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-4">Здесь будет каталог</h2>
+          <div className="h-[50vh] bg-gray-100 rounded-lg"></div>
+        </div>
       </main>
     </div>
   )
